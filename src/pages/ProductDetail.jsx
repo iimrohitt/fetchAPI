@@ -13,7 +13,6 @@ const ProductDetail = () => {
             setdata(res.data)
         } catch (error) {
             console.error("Single Product Not Fatch", error);
-
         }
     }
 
